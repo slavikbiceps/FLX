@@ -1,0 +1,45 @@
+/* Your styles go here */
+#header, header-control, #add_page, #modify_page, .add-new-input, .add-new-control, .mod-input, .mod-control, .header-button {  display: flex;
+  justify-content: center;
+}
+#header-notification {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.header-inner, .add-new-inner, .mod-inner {
+  width: 33.3%;
+}
+#header-notification, h1 {
+  text-align: center;
+}
+.task-new-input {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 8px 5px;
+}
+#add_page, #modify_page {
+  display: none;
+}
+
+button {
+  background-color: #dcdddd;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 3px;
+}
+button:hover {
+  transition-delay: .2s;
+  background-color: rgb(146, 146, 146);
+  color:rgb(207, 200, 200);
+}
+#list {
+  padding: 0;
+}
+#list li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
